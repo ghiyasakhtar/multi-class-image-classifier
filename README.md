@@ -62,6 +62,3 @@ pip install -r requirements.txt
 ## Ekspor Model
 - TFLite: model.tflite
 - TensorFlow.js: direktori tfjs_model/ (gunakan tensorflowjs.converters.save_keras_model(...))
-
-## Penulis
-Ghiyas Akhtar Razi Ramadhan
