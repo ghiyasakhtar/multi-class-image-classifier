@@ -4,11 +4,12 @@
 Proyek ini adalah model klasifikasi citra yang dibangun menggunakan Convolutional Neural Network (CNN) untuk mengklasifikasikan gambar ke dalam 6 kategori: `buildings`, `forest`, `glacier`, `mountain`, `sea`, dan `street`. Model ini dilatih di Google Colab dan diekspor ke format `.tflite` dan `TensorFlow.js`.
 
 ## Struktur Folder
-submission
-├── tfjs_model
-│   ├── group1-shard1of5.bin     # File model TensorFlow.js shard (1 dari 5)
-|   ├── group1-shard2of5.bin     # File model TensorFlow.js shard (2 dari 5)
-|   ├── group1-shard3of5.bin     # File model TensorFlow.js shard (3 dari 5)
+```
+multi-class-image-classifier/  
+├── tfjs_model  
+│   ├── group1-shard1of5.bin     # File model TensorFlow.js shard (1 dari 5)  
+|   ├── group1-shard2of5.bin     # File model TensorFlow.js shard (2 dari 5)  
+|   ├── group1-shard3of5.bin     # File model TensorFlow.js shard (3 dari 5)  
 |   ├── group1-shard4of5.bin     # File model TensorFlow.js shard (4 dari 5)
 |   ├── group1-shard5of5.bin     # File model TensorFlow.js shard (5 dari 5)
 │   └── model.json               # Konfigurasi model TensorFlow.js
@@ -21,6 +22,7 @@ submission
 ├── notebook.ipynb              # Notebook Google Colab
 ├── README.md                   # Dokumentasi proyek
 └── requirements.txt            # Daftar dependensi Python
+```
 
 ## Teknologi & Library
 - Python 3.x
